@@ -1,0 +1,10 @@
+/* 
+    Document   : main
+    Author     : smiracle
+    Description: The main structure of layout without any styling. Use as template for future stylesheets
+*/
+
+root { 
+    display: block;
+}
+
