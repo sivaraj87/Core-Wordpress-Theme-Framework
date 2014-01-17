@@ -5,9 +5,9 @@
         <div id="header">
             <div class="wrapper">
                 <? do_action('before_site_title'); ?>
-                <h1 class="title "><? get_bloginfo('name'); ?></h1>
+                <h1 class="title "><?=get_bloginfo('name'); ?></h1>
                 <? do_action('after_site_title'); ?>
-                <p class="tagline"><? get_bloginfo('description'); ?></p>
+                <p class="tagline"><?=get_bloginfo('description'); ?></p>
                 <? do_action('before_primary_nav'); ?>
                 <div id="primaryNav" class="navigation">
                     <? if(has_nav_menu('primary')) wp_nav_menu('primary') ?>
@@ -32,5 +32,3 @@
     </div>
 
 </body>
-
-?>
