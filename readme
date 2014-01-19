@@ -1,0 +1,33 @@
+Core Wordpress Theme Framework
+==============================
+
+Lightweight & extendable object-oriented Wordpress theme framework for designers & developers
+
+
+-----------------------------------------------
+
+Not yet ready for release - still in development
+
+------------------------------------------------
+
+
+Philosophy
+------------------------------------------------
+
+1. Object-Oriented theme structure
+2. Lazy-loading: Don't include anything until you need it.
+3. Simple & minimal foundation to build upon.
+4. Start with a blank canvas - minimal javascript & css included.
+
+
+
+Intended Users
+-------------------------------------------------
+Core Wordpress theme framework is intended to make the lives of Wordpress custom theme designers and developers more efficient and simple. This is not an out of the box solution even though setting up a new child theme is as simple as adding a CSS and functions.php files.
+
+
+Goal
+-------------------------------------------------
+The goal of Core Wordpress theme framework is to provide a light-weight theme framework that custom wordpress theme designers and developers to build upon. You don't need to recreate dozens of theme files on every project nor should you need to remove all the bloat of other theme frameworks every time you build a new theme. Core Wordpress theme framework is designed to provide endless amounts of flexibility while also providing a simple solution to include only what you need.
+
+
