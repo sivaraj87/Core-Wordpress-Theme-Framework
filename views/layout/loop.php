@@ -6,6 +6,9 @@
                 <?php do_action('core_before_the_article'); ?>
                 <?php do_action('core_the_article'); ?>
                 <?php do_action('core_after_the_article'); ?>
+                <?php do_action('core_before_comments'); ?>
+                <?php do_action('core_the_comments'); ?>
+                <?php do_action('core_after_the_comments'); ?>
             <?php endwhile; ?>
 
     <?php else : ?>

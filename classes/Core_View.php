@@ -40,6 +40,7 @@ class Core_View extends Core{
         add_action('core_article_content', array($this, 'setup_article_content'));
         add_action('core_article_footer', array($this, 'setup_article_footer'));
         add_action('core_article_title', array($this, 'setup_article_title'));
+        add_action('core_the_comments', array($this, 'setup_the_comments'));
     }
     
     private function setup_classes_actions(){
@@ -129,6 +130,10 @@ class Core_View extends Core{
     public function setup_article_title(){
         $articleTite = apply_filters('core_article_title_filter', $classes);
         echo $articleTitle;
+    }
+    
+    public function setup_the_comments(){
+        get_template_part('views/layout/comments');
     }
     
     
