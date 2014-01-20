@@ -1,9 +1,8 @@
 
-<div id="main" class="<?php do_action('main_classes') ?>">
+<div id="main" class="<?php do_action('core_main_classes') ?>">
     <div class="wrapper">
-        <div id="primary" class="<?php do_action('primary_classes') ?>">
-            <?php get_template_part('views/layout/content'); ?>
-        </div>
-        <?php get_template_part('/views/layout/secondary'); ?>
+        <?php do_action('core_before_primary'); ?>
+        <?php do_action('core_primary'); ?>
+        <?php do_action('core_after_primary'); ?>
     </div>
 </div>
