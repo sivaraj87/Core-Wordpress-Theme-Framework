@@ -40,7 +40,6 @@ class Core_View extends Core{
         add_action('core_article_content', array($this, 'setup_article_content'));
         add_action('core_article_footer', array($this, 'setup_article_footer'));
         add_action('core_article_title', array($this, 'setup_article_title'));
-        add_action('core_the_comments', array($this, 'setup_the_comments'));
     }
     
     private function setup_classes_actions(){
